@@ -228,7 +228,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 20px !important;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -380,6 +380,10 @@ section {
   transition: 0.3s;
 }
 
+.navbar a.getstarted:focus {
+  justify-content: space-around;
+}
+
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
@@ -403,11 +407,11 @@ section {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #2d3748;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #6366f1;
+  color: #0f997f;
 }
 
 .navbar-mobile .getstarted {
